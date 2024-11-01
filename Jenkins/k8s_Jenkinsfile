@@ -17,13 +17,13 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test k8s stuff..
+                echo "doing test k8s stuff.."
                 '''
             }
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver....'
+                echo "Deliver...."
                 sh '''
                 echo "doing delivery k8s stuff.."
                 '''
